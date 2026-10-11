@@ -1,0 +1,19 @@
+# Render Blueprint for the API (free plan). Frontend goes on Vercel/Netlify (see docs/DEPLOYMENT.md).
+services:
+  - type: web
+    name: climate-hazard-api
+    runtime: docker
+    rootDir: backend
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: MONGODB_URI
+        sync: false          # paste your MongoDB Atlas connection string in the Render dashboard
+      - key: DATA_SOURCE
+        value: open-meteo
+      - key: CORS_ORIGINS
+        sync: false          # e.g. https://climate-hazard-analyzer.vercel.app
+      - key: TRUSTED_PROXY_HOPS
+        value: "1"
+      - key: CONTACT_EMAIL
+        sync: false

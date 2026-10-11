@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/api.ts","./src/main.tsx","./src/components/DataQuality.tsx","./src/components/EventTimeline.tsx","./src/components/Insights.tsx","./src/components/MapPicker.tsx","./src/components/RegionPicker.tsx","./src/components/Stripes.tsx","./src/components/TopEvents.tsx","./src/components/TrendChart.tsx","./src/components/charts.ts"],"version":"5.6.3"}

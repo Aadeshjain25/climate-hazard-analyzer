@@ -1,0 +1,12 @@
+fastapi==0.143.0
+uvicorn[standard]==0.53.0
+pymongo==4.18.3
+mongomock-motor==0.0.36
+slowapi==0.1.10
+httpx==0.28.1
+numpy>=1.26,<3
+pandas>=2.2,<4
+scipy>=1.12,<2
+reportlab>=4.2,<6
+pydantic>=2.8,<3
+python-dotenv>=1.0,<2
