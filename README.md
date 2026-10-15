@@ -2,7 +2,7 @@
 
 Pick a place on Earth (a city, a state, or a lat/lon box you draw on a map), choose a period like 1990–2020, and see how **heatwaves** (or heavy-rainfall events) have changed there. You get statistically tested trends and a plain-English summary that says how confident you can be in it.
 
-> Live app: deployment in progress (see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)). Run locally in 2 minutes with the Quick start below.
+> Live app: https://climate-hazard-analyzer-chi.vercel.app · API docs: https://climate-hazard-api-mvr8.onrender.com/api/docs
 
 ![stack](https://img.shields.io/badge/backend-FastAPI%20%2B%20MongoDB-1b2430) ![stack](https://img.shields.io/badge/frontend-React%20%2B%20Chart.js%20%2B%20Leaflet-c53030) ![tests](https://img.shields.io/badge/tests-35%20passing-2f855a)
 

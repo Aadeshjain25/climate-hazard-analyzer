@@ -96,9 +96,8 @@ export default function MapPicker({ mode, region, maxBoxDeg, cells, onChange }: 
     <div className="map-wrap">
       <MapContainer center={center} zoom={region ? 6 : 4} worldCopyJump className="map" attributionControl>
         <TileLayer
-          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
-          subdomains="abcd"
+          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           maxZoom={12}
         />
         <ClickHandler mode={mode} maxBoxDeg={maxBoxDeg} onChange={onChange} setPreview={setPreview} />
